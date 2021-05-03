@@ -3,7 +3,7 @@ from result import result
 results = []
 
 
-num_trials = 10000
+num_trials = 1000
 tracking = 0
 while tracking < num_trials:
     f = 0
