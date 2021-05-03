@@ -3,7 +3,7 @@ import random as rn
 
 
 def result():
-    doors = ["lambo", "goat", "sheep"]
+    doors = ["lambo", "goat", "sheep"] # What is behind the doors
     unmodified_doors = doors
     # radnomise doors
 
@@ -14,9 +14,9 @@ def result():
     choice = rn.choice(doors)
 
     doors.remove(choice)
-    # open a door
 
-
+    
+    # selecting a door
 
     cont = True
     i = 0
@@ -48,7 +48,7 @@ def result():
             outcome = "win"
         else:
             outcome = "loss"
-
+    # outcome
     if outcome == "win":
         return True
     else:
@@ -56,19 +56,5 @@ def result():
 
 
 
-
-
-
-    # while cont and i <=2:
-    #     if i == choice:
-    #         i += 1
-    #         continue
-    #     elif doors[i] == "lambo":
-    #         i += 1
-    #         continue
-    #     else:
-    #         door_to_reveal = i
-    #         cont = False
-    #         break
 
 
